@@ -1,0 +1,114 @@
+body{
+	padding: 10px;
+	margin: 10px;
+}
+
+header{
+	position: absolute;
+	background-color: #090979;
+	height: 80px;
+	width: 1350px;
+	left: 146px;
+	font-size: 15px;
+	color: white;
+	padding-top: 20px;
+
+}
+
+
+
+nav{
+    width: 750px;
+    background-color: white;
+    position:relative;
+    bottom: 110px;
+    left: 500px;
+    font-size: 22px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li:hover{
+  border: 1px solid #090979;
+  color: white;
+  background-color: #090979;
+  border-radius: 10%;
+}
+
+nav li{
+    float: left;
+    width: 23%;/*100% divisé par le nombre d'éléments de menu*/
+    text-align: center;/*Centre le texte dans les éléments de menu*/
+}
+
+/*Evite que le menu n'ait une hauteur nulle*/
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+	width: 1130px;
+}
+
+
+.aside1{
+	position: absolute;
+	height: 650px;
+	width: 250px;
+	background-color: #84e2f5;
+	top: 170px
+}
+.aside2{
+	position: absolute;
+	height: 650px;
+	width: 250px;
+	background-color: #84f598;
+	top: 850px
+}
+
+section{
+	position: absolute;
+	width: 1195px;
+	height: 1330px;
+	top: 170px;
+	left: 300px;
+	background-color: #f584c7;
+}
+
+.article1{
+	position: absolute;
+	height: 630px;
+	width: 1135px;
+	left: 30px;
+	top: 20px;
+	background-color: white;
+	overflow-y: scroll;
+}
+
+.article1 h1{
+	font-size: 27px;
+
+}
+
+.article2{
+	position: absolute;
+	height: 630px;
+	width: 1135px;
+	left: 30px;
+	top: 680px;
+	background-color: white;
+	overflow-y: scroll;
+}
+
+footer{
+	position: absolute;
+	height: 100px;
+	width: 1480px;
+	background-color: black;
+	top: 1520px;
+
+}
